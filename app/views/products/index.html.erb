@@ -1,7 +1,7 @@
 <h2>All Products</h2>
 
 <% @products.each do |product| %>
-  <p>Name: <%= product.name %>; unit price of <%= number_to_currency(product.price) %></p>
+  <p>Name: <%= product.name %><br> Image <br> <%= image_tag(product.image.thumb.url, alt: 'Image') if product.image? %></p>
   <p>
     <%= link_to "Edit", edit_product_path(product) %> |
     <%= link_to "Delete", product_path(product), method: :delete, data: {confirm: "Are you sure?"} %>

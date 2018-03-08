@@ -30,6 +30,15 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+#upload of files
+gem 'carrierwave', '~> 1.0'
+
+#thumbnail
+gem 'mini_magick'
+
+#validator
+gem 'file_validators'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
