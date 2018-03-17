@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root 'products#index'
 
   get 'carts/:id' => "carts#show", as: "cart"

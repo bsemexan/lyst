@@ -7,9 +7,7 @@
     <%= f.label :image %><br>
     <%= f.file_field :image, required: true %>
     <%= f.hidden_field :image_cache %>
-    <% if f.image? %>
-      <%= image_tag f.image.thumb.url %>
-    <% end %>
+    <%= f.hidden_field :user_id , :value => current_user.id%>
   </p>
   <p>
     <%= f.submit %>

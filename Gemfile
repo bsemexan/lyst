@@ -39,6 +39,9 @@ gem 'mini_magick'
 #validator
 gem 'file_validators'
 
+#authentication
+gem 'devise'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
