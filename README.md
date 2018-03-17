@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Welcome to Lyst, where you can list hings you no longer want, or you belive deserves a new home.
 
-Things you may want to cover:
+This is an ealry stage product where a user can upload a product or browse products.
 
-* Ruby version
+This was built with:
 
-* System dependencies
+Rails 5.1.5
+SQLite3 3.22.0
 
-* Configuration
+To run:
 
-* Database creation
+git clone the repository
 
-* Database initialization
+rails db:migrate RAILS_ENV=development
 
-* How to run the test suite
+rails -s 
 
-* Services (job queues, cache servers, search engines, etc.)
+And you should be good to go!
 
-* Deployment instructions
+TODO:
 
-* ...
+Get a UI/FrontEnd
+A user can checkout a product
